@@ -14,4 +14,4 @@ let totalPrice = inventory.reduce((acc, cur) => {
   return acc + cur.price * cur.quantity;
 }, 0);
 
-console.log(totalPrice);
+console.log(`มูลค่ารวมของจำนวนสินค้าทั้งหมดในสต็อก ${totalPrice} บาท`);
